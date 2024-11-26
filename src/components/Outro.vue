@@ -1,6 +1,6 @@
 <template>
     <v-container fluid class="px-0 bg-blue-darken-4">
-        <div class="divider" />
+        <div class="divider" id="outro" />
         <v-container>
             <div class="text-white text-center text-h3 font-weight-bold">Mag-register, at makipagtulungan tungo sa isang
                 <div class="h3-spacing" />baong Pilipinas kasama ang libo-libong Pilipino,

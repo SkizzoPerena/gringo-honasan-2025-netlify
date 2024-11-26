@@ -2,10 +2,10 @@
   <v-app>
     <v-main>
       <AppBar />
-      <Landing />
-      <Sino />
-      <Laws />
-      <Testimonies />
+      <Landing id="landing"/>
+      <Sino id="sino"/>
+      <Laws id="laws"/>
+      <Testimonies id="testimonies"/>
       <Outro />
       <Footer />
     </v-main>
@@ -15,22 +15,8 @@
 
 <script>
 export default {
-    methods: {
-    scrollHome() {
-      this.$refs.Landing?.scrollIntoView({ behavior: 'smooth' });
-    },
-    scrollSino() {
-      this.$refs.Sino?.scrollIntoView({ behavior: 'smooth' });
-    },
-    scrollLaws() {
-      this.$refs.Laws?.scrollIntoView({ behavior: 'smooth' });
-    },
-    scrollTestimonies() {
-      this.$refs.Testimonies?.scrollIntoView({ behavior: 'smooth' });
-    },
-  },
 
-};
+}
 </script>
 <style>
 

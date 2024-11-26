@@ -8,9 +8,8 @@
           <h1>Ito ang masasabi ng mga nakasama
             ni Gringo sa kanilang buhay at trabaho</h1>
         </v-col>
-        <v-col cols="5" align-self="center">
-          <v-btn size="large" variant="elevated" color="yellow-accent-4" class="float-end"> JOIN
-            OUR MOVEMENT </v-btn>
+        <v-col cols="5" align-self="center" class="d-flex flex-row-reverse">
+          <Join/>
         </v-col>
       </v-row>
 
@@ -157,6 +156,7 @@
 <script setup>
 import 'vue3-carousel/dist/carousel.css'
 import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
+import { useGoTo } from 'vuetify'
 
 const config = {
   itemsToShow: 3.95,

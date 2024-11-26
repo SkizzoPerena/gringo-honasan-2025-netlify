@@ -1,5 +1,5 @@
 <template>
-    <v-container fluid class=" pa-0 footer-bg" height="70vh" ref="Landing">
+    <v-container fluid class=" pa-0 footer-bg" height="70vh">
         <v-container class="fill-height">
             <v-row>
                 <v-col cols="7" class="text-center">

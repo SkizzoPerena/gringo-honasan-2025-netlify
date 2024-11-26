@@ -68,14 +68,15 @@
             <h1 class="text-center">Marami na, at dadami pa ang maitutulong ni Gringo para sa ating bansa!
                 <br/><a class="text-decoration-none text-red-darken-1 font-weight-bold" href="#"> Click here </a> to read
                 more of his authored laws.</h1>
-                <div class="d-flex justify-center smgap"><v-btn size="large" variant="elevated" color="yellow-accent-4"> JOIN
-                    OUR MOVEMENT </v-btn></div>
+                <div class="d-flex justify-center smgap"><Join/></div>
         </v-container>
         <div class="divider" />
     </v-container>
 </template>
 
 <script>
+import Join from './Join.vue';
+
 export default {
 
 }

@@ -1,4 +1,4 @@
-<template ref="Sino">
+<template>
     <v-container fluid class="px-0 bg-blue-darken-4">
         <div class="divider" />
         <v-col class="px-0" cols="6"><v-img src="../assets/images/Sino Head.png"></v-img></v-col>
@@ -37,17 +37,15 @@
             </v-row>
             <p class="gap"></p>
             <v-img src="../assets/images/Panlaban.png"></v-img>
-            <div class="d-flex justify-center gap"><v-btn size="large" variant="elevated" color="yellow-accent-4"> JOIN
-                    OUR MOVEMENT </v-btn></div>
+            <div class="d-flex justify-center gap"><Join/></div>
         </v-container>
         <div class="divider" />
     </v-container>
 </template>
 
 <script>
-export default {
+import Join from './Join.vue';
 
-}
 </script>
 
 <style>
