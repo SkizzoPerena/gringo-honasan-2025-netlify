@@ -1,4 +1,4 @@
-<template>
+<template class="d-lg-block">
     <v-app-bar color="#ce2028" :elevation="3" scroll-behavior="inverted hide" scroll-threshold="800">
 
         <v-img max-height="45" src="../assets/images/NavIcon.png"  @click="goTo('#landing', { easing: 'easeInOutQuart', duration:1000,})"/>

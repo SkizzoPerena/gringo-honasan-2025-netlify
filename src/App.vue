@@ -1,15 +1,21 @@
 <template>
   <v-app>
-    <v-main>
+    <v-main  class="d-none d-lg-block">
       <AppBar />
       <Landing id="landing"/>
       <Sino id="sino"/>
       <Laws id="laws"/>
       <Testimonies id="testimonies"/>
-      <Outro />
-      <Footer />
-    </v-main>
+      <Outro/>
+      <Footerr />
 
+    </v-main>
+    <v-main  class="d-lg-none">
+      <MobAppBar/>
+      <MobLanding id="mobLanding" />
+      <MobSino id="mobSino" />
+      <MobLaws id="mobLaws" />
+    </v-main>
   </v-app>
 </template>
 
@@ -19,14 +25,15 @@ export default {
 }
 </script>
 <style>
-
 .gap {
-    padding-top: 50px;
+  padding-top: 50px;
 }
+
 .smgap {
-    padding-top: 30px;
+  padding-top: 30px;
 }
+
 .divider {
-    padding-top: 150px;
+  padding-top: 150px;
 }
 </style>
