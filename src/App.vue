@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-main  class="d-none d-lg-block">
+    <v-main class="d-none d-lg-block">
       <AppBar />
       <Landing id="landing"/>
       <Sino id="sino"/>
@@ -10,11 +10,14 @@
       <Footerr />
 
     </v-main>
-    <v-main  class="d-lg-none">
+    <v-main class="d-lg-none">
       <MobAppBar/>
       <MobLanding id="mobLanding" />
       <MobSino id="mobSino" />
-      <MobLaws id="mobLaws" />
+      <MobLaws id="mobLawsAndBills" />
+      <MobTestimonies id="mobTestimonies" />
+      <MobOutro />
+      <MobFooterr />
     </v-main>
   </v-app>
 </template>

@@ -1,5 +1,5 @@
 <template>
-    <v-container fluid class=" pa-0 mobbg" height="100vh">
+    <v-container fluid class="pa-0 mobbg" height="100vh">
         <v-toolbar color="transparent" density="compact">
         <template v-slot:prepend>
             <v-app-bar-nav-icon @click.stop="drawer = !drawer" color="white"></v-app-bar-nav-icon>
@@ -13,10 +13,10 @@
         <v-list nav>
           <v-list-item title="Home" @click="goTo('#mobLanding', { easing: 'easeInOutQuart', duration:1000,}), drawer = !drawer"></v-list-item>
           <v-list-item title="Sino si Gringo?" @click="goTo('#mobSino', { easing: 'easeInOutQuart', duration:1000,}), drawer = !drawer"></v-list-item>
-          <v-list-item title="Laws & Bills" @click="goTo('#mobLaws', { easing: 'easeInOutQuart', duration:1000,}), drawer = !drawer"></v-list-item>
-          <v-list-item title="Testimonies" @click="goTo('#mobSino', { easing: 'easeInOutQuart', duration:1000,}), drawer = !drawer"></v-list-item>
+          <v-list-item title="Laws & Bills" @click="goTo('#mobLawsAndBills', { easing: 'easeInOutQuart', duration:1000,}), drawer = !drawer"></v-list-item>
+          <v-list-item title="Testimonies" @click="goTo('#mobTestimonies', { easing: 'easeInOutQuart', duration:1000,}), drawer = !drawer"></v-list-item>
           <v-divider class="mb-1"></v-divider>
-          <v-list-item title="JOIN OUR MOVEMENT" @click="goTo('#mobSino', { easing: 'easeInOutQuart', duration:1000,}), drawer = !drawer"></v-list-item>
+          <v-list-item title="JOIN OUR MOVEMENT" @click="goTo('#mobLanding', { easing: 'easeInOutQuart', duration:1000,}), drawer = !drawer"></v-list-item>
         </v-list>
 
       </v-navigation-drawer>
